@@ -71,9 +71,9 @@ console.log(`El número convertido a texto es: "${numeroCasaTexto}". El tipo de 
 // Muestre el nombre completo
 // Indique cuántos caracteres tiene el nombre completo (incluyendo espacio)
 // Muestre todo en MAYÚSCULAS
-let Nombre = Diego
-let apellido = Rojas
-console.log(`Mi nombre completo es ${Nombre} ${apellido}. El nombre completo tiene ${Nombre.length + apellido.length + 1} caracteres. El nombre completo en mayúsculas es: "${(Nombre + " " + apellido).toUpperCase()}".`);
+let Nombre = "diego"
+let apellido = "Rojas"
+console.log(`Mi Nombre completo es ${Nombre} ${apellido}. El Nombre completo tiene ${Nombre.length + apellido.length + 1} caracteres. El Nombre completo en mayúsculas es: "${(Nombre + " " + apellido).toUpperCase()}".`);
 // 8️⃣ Verificación de contenido
 // Crea la variable:
 // frase: Hoy aprenderemos sobre strings
@@ -92,7 +92,7 @@ console.log(`la frase contiene la palabra "strings": ${frase.includes("strings")
 // El texto en mayúsculas
 // La cantidad de caracteres
 let texto =  "Programar es divertido"
-console.log(texto , `${texto.toLowerCase()}. La frase en mayúscula es: "${texto.toUpperCase}. La cantidad de caracteres es: ${texto.length}.`)
+console.log(`El texto original es: "${texto}". El texto en minúsculas es: "${texto.toLowerCase()}". El texto en mayúsculas es: "${texto.toUpperCase()}". La cantidad de caracteres es: ${texto.length}.`);
 // 🔟 Desafío completo integrado
 // Crea las variables:
 // curso: 4C
@@ -102,3 +102,7 @@ console.log(texto , `${texto.toLowerCase()}. La frase en mayúscula es: "${texto
 // Convierta el año a texto
 // Indique el tipo de dato del año convertido
 // Muestre todo el mensaje en MAYÚSCULAS
+let curso = "4C"
+let anio ="2026"
+let anio_texto = "anio_texto.toString()";
+console.log(`Estoy en el curso ${curso} del año ${anio}. El año convertido a texto es: "${anio_texto}". El tipo de dato del año convertido es: ${typeof anio_texto}. El mensaje completo en mayúsculas es: "ESTOY EN EL CURSO ${curso} DEL AÑO ${anio}".`)
