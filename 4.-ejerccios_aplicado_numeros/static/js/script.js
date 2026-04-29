@@ -104,7 +104,7 @@ function PotenciaCalculo() {
 // Muestra el resultado
 // Indica si el número es mayor o igual a 4 (gana) o menor (pierde)
 function dadoAleatorio() {
-let dado = Math.floor(Math.random()*6) + 1;
-alert(`Tirar dado: ${dado}
+    let dado = Math.floor(Math.random() * 6) + 1;
+    alert(`Tirar dado: ${dado}
     \nSi el numero es mayor a 4 o igual: ${dado >= 4}`)
 }
