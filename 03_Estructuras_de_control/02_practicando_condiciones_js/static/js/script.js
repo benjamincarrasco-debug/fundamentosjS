@@ -102,7 +102,7 @@ function ejercicio8(){}
 function ejercicio9() {
     let Precioproducto = 20000
     let descuento = 0.1;
-    alert(`precio final con descuento $$(Precioproducto * descuento)}`)
+    alert(`precio final con descuento $${(Precioproducto * descuento)}`)
 }
 
 
